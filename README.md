@@ -8,60 +8,21 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
+#### Prior knowledge 
+
 Participants are welcome to have prior experience in C/C++ programming and High School physics, however it's not required.
+
+#### Software and hardware
 
 For efficient partaking you need to have an access to PC or Mac computer with either MS Windows, MAC OS or Linux installed. Arduino development environment is fine to run on all mainstream platforms.
 
 Follow the link to install appropriate version of Arduino IDE on your computer: [Arduino IDE](https://www.arduino.cc/en/Main/Software)
 
+If you're attending our course at Poznan University of Technology, then probably you're provided with Arduino board and all other elements. If you're unable to participate personally, please contact us, we are eager to help you start out.
 
-What things you need to install the software and how to install them
+### Writing code
 
-```
-Give examples
-```
-
-### Installing
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
+We recommend rather writing code by yourself - it's less error-prone, but you learn more about syntax and algorithms. After all, if you stuck, this repo is here to provide stable and correct code for you.
 
 ## Built With
 
