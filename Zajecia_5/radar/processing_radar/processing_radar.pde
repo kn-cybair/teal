@@ -1,3 +1,16 @@
+/*
+  MIT License 2019
+  ---
+  Arduino Workshops
+  Class #5
+  Program purpose: Arduino Radar Processing file
+  ---
+  @author: Krzysztof Stezala
+  ---
+  Provided by CybAiR Science Club at 
+  Institute of Control, Robotics and Information Engineering of
+  Poznan University of Technology  
+*/
 import processing.serial.*; 
 import java.awt.event.KeyEvent;
 import java.io.IOException;
