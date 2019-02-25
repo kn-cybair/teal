@@ -33,7 +33,7 @@ void loop(){
   if (digitalRead(10) == LOW)
   {
     rotDirection=rotDirection*(-1);
-    delay(50);//zatrzymaj na moment
+    delay(50);//stop for a brief time
   }
 
   if(rotDirection==1)
@@ -44,5 +44,5 @@ void loop(){
   {
     servo.write(92-deltaV);
   }
-  delay(50); //przy mniejszym delayu ciezko trafic "raz" w przycisk 
+  delay(50); //if delay is not big enoug, it can be hard to accurately push button
 }
