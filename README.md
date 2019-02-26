@@ -4,7 +4,7 @@ Project is focused on introducing the basics of electrical engineering and Ardui
 
 ### Getting started
 
-getting started
+getting started now
 
 ### Prerequisites
 
