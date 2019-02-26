@@ -3,7 +3,7 @@
   ---
   Arduino Workshops
   Class #3
-  Program purpose: Servo presentation
+  Program purpose: Servo360 presentation
   ---
   @author: Michael Grabowski
   ---
@@ -44,5 +44,5 @@ void loop(){
   {
     servo.write(92-deltaV);
   }
-  delay(50); //if delay is not big enoug, it can be hard to accurately push button
+  delay(50); //if delay is not big enough, it can be hard to accurately push button
 }
