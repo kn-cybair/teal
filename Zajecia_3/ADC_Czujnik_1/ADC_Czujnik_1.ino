@@ -12,7 +12,7 @@
   Poznan University of Technology  
 */
 #define BAUDRATE 9600
-#define SENSOR A0
+#define SENSOR A1
 
 int ledPins[] = { 8, 9, 10 };
 int ledCount = 3;
