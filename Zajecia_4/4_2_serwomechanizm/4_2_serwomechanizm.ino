@@ -1,8 +1,8 @@
 #include <Servo.h> 
-#define gain 20
 #define servo_pin 6
 Servo my_servo; 
 int angle=0; 
+int gain = 20;
 
 void setup() {
 my_servo.attach(servo_pin); 
