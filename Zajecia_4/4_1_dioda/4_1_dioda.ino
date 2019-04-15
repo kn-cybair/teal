@@ -1,6 +1,6 @@
 #define PWM_pin 6
-#define gain 5
 
+int gain = 5;
 int modulation=0;
 
 void setup() {
