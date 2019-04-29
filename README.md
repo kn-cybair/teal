@@ -2,10 +2,6 @@
 
 Project is focused on introducing the basics of electrical engineering and Arduino platform programming to inexperienced newcomers. 
 
-### Getting started
-
-getting started now
-
 ### Prerequisites
 
 #### Prior knowledge 
