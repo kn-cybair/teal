@@ -27,5 +27,5 @@ void loop() {
   Serial.print(counter);
   Serial.print(" ");
   counter++;
-  delay(50);
+  delay(5);
 }
