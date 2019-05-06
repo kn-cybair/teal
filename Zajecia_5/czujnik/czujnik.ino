@@ -16,7 +16,6 @@
 
 #define TRIG_PIN 10
 #define ECHO_PIN 11
-#define BUZZER_PIN 2
 
 int ledPins[] = { 5, 6, 7 };
 int ledCount = 3;
@@ -27,7 +26,6 @@ void setup() {
     /* Initialize*/
     pinMode(TRIG_PIN, OUTPUT);
     pinMode(ECHO_PIN, INPUT);
-    pinMode(BUZZER_PIN, OUTPUT);
 
     /* Initialize serial communications */
     Serial.begin(BAUDRATE);
@@ -67,12 +65,7 @@ void range(int min_range, int max_range) {
     int range = getDistance();
     
     lightUpLed(range);
-    if( (range > min_range) && (range < max_range)) {
-        digitalWrite(BUZZER_PIN, HIGH);
-    }
-    else{
-        digitalWrite(BUZZER_PIN, LOW);
-    }
+
 }
 
 void lightUpLed(int range){
