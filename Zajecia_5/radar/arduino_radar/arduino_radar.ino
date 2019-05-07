@@ -42,9 +42,9 @@ void loop(){
         // for the Processing software
         // to receive them
         Serial.print(i);
-        Serial.print(",");
+        Serial.print("*");
         Serial.print(objectDistance);
-        Serial.print(".");
+        Serial.print("#");
 
     }
 }
